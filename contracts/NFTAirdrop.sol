@@ -11,7 +11,7 @@ contract NFTAirdrop is ERC721Enumerable, Ownable {
 
     Counters.Counter private _tokenIds;
 
-    constructor() ERC721("NFT Aidrop Demo", "NAD") {
+    constructor() ERC721("NFT Aidrop", "NFTA") {
         console.log("Contract has been deployed!");
     }
 
